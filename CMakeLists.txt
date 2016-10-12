@@ -1,10 +1,11 @@
 cmake_minimum_required (VERSION 3.1)
-set(PROJECT "dariadb-example")
+set(PROJECT "cpplua-example")
 project (${PROJECT} VERSION 0.1.0)
 
 set(LUA_BUILD_AS_DLL  OFF)
 set(BUILD_SHARED_LIBS ON)
 set(BUILD_TESTING OFF)
+set(LUA_BUILD_WLUA OFF)
 set(LUA_BUILD_WLUA OFF)
 
 add_subdirectory(lua)
